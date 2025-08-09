@@ -1,8 +1,8 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { faBriefcase, faBook, faFolderOpen } from '@fortawesome/free-solid-svg-icons';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
@@ -16,50 +16,77 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="2023 - present"
+            iconStyle={{ background: '#6702ff', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBook} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">University of Bologna (Alma Mater Studiorum)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Cesena, Italy</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Bachelor Degree in Computer Science and Engineering
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="Oct 2023 - Nov 2023"
+            iconStyle={{ background: '#6702ff', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Software Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Rome, Italy <i style={{ fontSize: '0.6em' }}>Full Remote</i></h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Developement of an application to reassemble fragments of ancient frescoes.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="Aug 2023 - Sep 2023"
+            iconStyle={{ background: '#6702ff', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Software Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Rome, Italy <i style={{ fontSize: '0.6em' }}>Full Remote</i></h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Migration of Liferay framework version for Maize.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="May 2023 - Jul 2023"
+            iconStyle={{ background: '#6702ff', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Software Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Rome, Italy <i style={{ fontSize: '0.6em' }}>Full Remote</i></h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Developement of a web app prototype for remote script management within the Workplace project.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="May 2022 - Jul 2022"
+            iconStyle={{ background: '#6702ff', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faFolderOpen} />}
+          >
+            <h3 className="vertical-timeline-element-title">Internship</h3>
+            <h4 className="vertical-timeline-element-subtitle">Mercato Saraceno, Italy</h4>
+            <p>
+              Part of the project "<i>Mercato Trifase</i>".
+              Developement of a complete web-app for the management of the town hall finaces
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Sep 2018 - Jun 2023"
+            iconStyle={{ background: '#6702ff', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBook} />}
+          >
+            <h3 className="vertical-timeline-element-title">ITT Technical Institute</h3>
+            <h4 className="vertical-timeline-element-subtitle">Cesena, Italy</h4>
+            <p>
+              High School Diploma, Computer Science
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

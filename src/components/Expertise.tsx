@@ -2,24 +2,11 @@ import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faDatabase, faTerminal } from "@fortawesome/free-solid-svg-icons";
-import { DiCode } from "react-icons/di"
-
-import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const softDevIconsSrc = "https://skillicons.dev/icons?i=c,cpp,cs,java,py"
 const dataManipulationSrc = "https://skillicons.dev/icons?i=mysql,dotnet,latex"
 const enviromentSrc = "https://skillicons.dev/icons?i=linux,git,github,vscode,powershell,md"
-
-const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
-];
 
 function Expertise() {
     return (
