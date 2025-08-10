@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gioelefoschi/static/css/main.55a119a8.css",
+    "main.css": "/gioelefoschi/static/css/main.93714524.css",
     "main.js": "/gioelefoschi/static/js/main.246a82f4.js",
     "static/js/453.41811d64.chunk.js": "/gioelefoschi/static/js/453.41811d64.chunk.js",
     "static/media/LightLandingImage.avif": "/gioelefoschi/static/media/LightLandingImage.d3b1af4df693b8e288fe.avif",
@@ -10,12 +10,12 @@
     "static/media/DarkLandingImage.avif": "/gioelefoschi/static/media/DarkLandingImage.b8b57353ab5d10cf324a.avif",
     "static/media/mercato_trifase.png": "/gioelefoschi/static/media/mercato_trifase.a49e29b526c83a118c1e.png",
     "index.html": "/gioelefoschi/index.html",
-    "main.55a119a8.css.map": "/gioelefoschi/static/css/main.55a119a8.css.map",
+    "main.93714524.css.map": "/gioelefoschi/static/css/main.93714524.css.map",
     "main.246a82f4.js.map": "/gioelefoschi/static/js/main.246a82f4.js.map",
     "453.41811d64.chunk.js.map": "/gioelefoschi/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55a119a8.css",
+    "static/css/main.93714524.css",
     "static/js/main.246a82f4.js"
   ]
 }
