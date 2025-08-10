@@ -3,7 +3,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Avatar from '../assets/images/Avatar.jpg'
 import '../assets/styles/Main.scss';
-import { Height } from "@mui/icons-material";
 
 function Main() {
 

@@ -14,27 +14,27 @@ function Expertise() {
             <div className="skills-container">
                 <h1>Expertise</h1>
                 <div className="skills-grid">
-                    <div className="skill">
+                    <div className="skill secondary-container">
                         <FontAwesomeIcon icon={faCode} size="3x" />
-                        <h3>Software Developement</h3>
+                        <h3 className="title">Software Developement</h3>
                         <p> Began learning programming in high school and expanded my skills through university studies in computer science. I've worked on several projects mainly desktop and backend development.</p>
                         <div className="flex-chips" style={{ alignItems: 'center' }}>
                             <img src={softDevIconsSrc} />
                         </div>
                     </div>
 
-                    <div className="skill">
+                    <div className="skill secondary-container">
                         <FontAwesomeIcon icon={faDatabase} size="3x" />
-                        <h3>Data Manipulation</h3>
+                        <h3 className="title">Data Manipulation</h3>
                         <p>I have experience working with relational databases, focusing on project data analysis and designing efficient schemas. From planning data structures to writing complex queries. My work often involves translating real-world requirements into normalized, practical database models.</p>
                         <div className="flex-chips" style={{ alignItems: 'center' }}>
                             <img src={dataManipulationSrc} />
                         </div>
                     </div>
 
-                    <div className="skill">
+                    <div className="skill secondary-container">
                         <FontAwesomeIcon icon={faTerminal} size="3x" />
-                        <h3>Development Enviroments</h3>
+                        <h3 className="title">Development Enviroments</h3>
                         <p>I'm comfortable working in Linux-based environments and have experience using Git for version control and collaboration. I regularly use tools like VS Code to manage projects efficiently and streamline development workflows.</p>
                         <div className="flex-chips" style={{ alignItems: 'center' }}>
                             <img src={enviromentSrc} />
