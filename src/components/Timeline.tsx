@@ -71,7 +71,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Internship</h3>
             <h4 className="vertical-timeline-element-subtitle">Mercato Saraceno, Italy</h4>
             <p>
-              Part of the project "<i>Mercato Trifase</i>".
+              Part of the project "<em>Mercato Trifase</em>".
               Developement of a complete web-app for the management of the town hall finaces
             </p>
           </VerticalTimelineElement>

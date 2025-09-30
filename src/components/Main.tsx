@@ -19,7 +19,7 @@ function Main() {
               <a href="https://www.linkedin.com/in/gioele-foschi/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
             </div>
             <h1>Gioele Foschi</h1>
-            <p><i>Aspiring</i> Software Engineer</p>
+            <p><em>Aspiring</em> Software Engineer</p>
           </div>
         </div>
       </div>
