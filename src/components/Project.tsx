@@ -1,6 +1,7 @@
 import React from "react";
 import mercato from '../assets/images/mercato_trifase.png'
 import projectErcole from '../assets/images/project_ercole.png'
+import unicook from '../assets/images/unicook.png'
 import scriptManager from '../assets/images/project_script manager.png'
 import '../assets/styles/Project.scss';
 
@@ -25,6 +26,11 @@ function Project() {
                     <h2 className="project">Project Ercole</h2>
 
                     <p>The main goal was to create a software that, given a dataset containing pictures of fragments of ancient pots, <em>resemples the original pictures</em>. Two different approaches have been tested: trying to look up online for a ready-to-use solution and, in parallel, developing a procedural Python software. We eventually discovered <em>JigsawNet</em> by Le Canyu and Li Xin - on GitHub, a CNN capable of resembling pieces of an image without knowing how the original picture would have looked like.</p>
+                </div>
+                <div className="secondary-container">
+                    <img src={unicook} className="zoom" alt="thumbnail" width="100%" />
+                    <h2 className="project">Unicook</h2>
+                    <p>A website developed as part of the web technologies exam <a href="https://corsi.unibo.it/laurea/IngegneriaScienzeInformatiche">(University of Bologna)</a>.</p>
                 </div>
             </div>
         </div>
