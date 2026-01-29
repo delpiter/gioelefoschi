@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/gioelefoschi/static/css/main.93714524.css",
-    "main.js": "/gioelefoschi/static/js/main.545c5a87.js",
+    "main.css": "/gioelefoschi/static/css/main.ead66210.css",
+    "main.js": "/gioelefoschi/static/js/main.568ff4eb.js",
     "static/js/453.41811d64.chunk.js": "/gioelefoschi/static/js/453.41811d64.chunk.js",
     "static/media/LightLandingImage.avif": "/gioelefoschi/static/media/LightLandingImage.d3b1af4df693b8e288fe.avif",
     "static/media/project_ercole.png": "/gioelefoschi/static/media/project_ercole.2d8f5a122eec0ce7bfe8.png",
+    "static/media/unicook.png": "/gioelefoschi/static/media/unicook.7ffe632cd4d3c32fd681.png",
     "static/media/project_script manager.png": "/gioelefoschi/static/media/project_script manager.0c9b1f581c2d6de3b89f.png",
     "static/media/Avatar.jpg": "/gioelefoschi/static/media/Avatar.82c45c101b578ab37f3f.jpg",
     "static/media/DarkLandingImage.avif": "/gioelefoschi/static/media/DarkLandingImage.b8b57353ab5d10cf324a.avif",
     "static/media/mercato_trifase.png": "/gioelefoschi/static/media/mercato_trifase.a49e29b526c83a118c1e.png",
     "index.html": "/gioelefoschi/index.html",
-    "main.93714524.css.map": "/gioelefoschi/static/css/main.93714524.css.map",
-    "main.545c5a87.js.map": "/gioelefoschi/static/js/main.545c5a87.js.map",
+    "main.ead66210.css.map": "/gioelefoschi/static/css/main.ead66210.css.map",
+    "main.568ff4eb.js.map": "/gioelefoschi/static/js/main.568ff4eb.js.map",
     "453.41811d64.chunk.js.map": "/gioelefoschi/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93714524.css",
-    "static/js/main.545c5a87.js"
+    "static/css/main.ead66210.css",
+    "static/js/main.568ff4eb.js"
   ]
 }
