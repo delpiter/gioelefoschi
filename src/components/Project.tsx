@@ -11,12 +11,6 @@ function Project() {
             <h1>Personal Projects</h1>
             <div className="projects-grid">
                 <div className="secondary-container">
-                    <img src={mercato} className="zoom" alt="thumbnail" width="100%" />
-                    <h2 className="project">Mercato Trifase</h2>
-                    <p>Part of the project "Mercato Trifase".
-                        Developement of a <em>complete web-app</em> for the management of the town hall finaces</p>
-                </div>
-                <div className="secondary-container">
                     <img src={scriptManager} className="zoom" alt="thumbnail" width="100%" />
                     <h2 className="project">Script Manager</h2>
                     <p>The project aimed to develop a <em>working IDE</em> that could store files in a server, organize them in directories and did have to support multiple programming languages. I worked mostly in the front-end side, integrating Editor in <em>Vue.js</em> and providing features a VS Code-like editor has.</p>
@@ -28,9 +22,15 @@ function Project() {
                     <p>The main goal was to create a software that, given a dataset containing pictures of fragments of ancient pots, <em>resemples the original pictures</em>. Two different approaches have been tested: trying to look up online for a ready-to-use solution and, in parallel, developing a procedural Python software. We eventually discovered <em>JigsawNet</em> by Le Canyu and Li Xin - on GitHub, a CNN capable of resembling pieces of an image without knowing how the original picture would have looked like.</p>
                 </div>
                 <div className="secondary-container">
+                    <img src={mercato} className="zoom" alt="thumbnail" width="100%" />
+                    <h2 className="project">Mercato Trifase</h2>
+                    <p>Part of the project "Mercato Trifase".
+                        Developement of a <em>complete web-app</em> for the management of the town hall finaces</p>
+                </div>
+                <div className="secondary-container">
                     <img src={unicook} className="zoom" alt="thumbnail" width="100%" />
                     <h2 className="project">Unicook</h2>
-                    <p>A website developed as part of the web technologies exam <a href="https://corsi.unibo.it/laurea/IngegneriaScienzeInformatiche">(University of Bologna)</a>.</p>
+                    <p>A website developed as part of the web technologies exam (<a href="https://corsi.unibo.it/laurea/IngegneriaScienzeInformatiche">University of Bologna</a>).</p>
                 </div>
             </div>
         </div>
